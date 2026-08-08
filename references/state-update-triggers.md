@@ -16,7 +16,7 @@
 
 ## Command Triggers
 
-- `kickoff`：创建 `## Profile`、`## Resume Analysis`、`## Storybank`、`## Project Bank`、`## Score History`、`## Outcome Log`、`## Interview Intelligence`、`## Drill Progression`、`## Active Coaching Strategy`、`## Calibration State`、`## Session Log`、`## Coaching Notes`。
+- `kickoff`：创建 `## Profile`、`## Candidate Constraints`、`## Resume Analysis`、`## Storybank`、`## Project Bank`、`## Score History`、`## Outcome Log`、`## Interview Intelligence`、`## Drill Progression`、`## Active Coaching Strategy`、`## Calibration State`、`## Session Log`、`## Coaching Notes`。
 - `research`：更新 `## Interview Loops (active)`，记录 Status、Fit verdict、Fit confidence、Fit signals、Structural gaps、Date researched。
 - `decode`：新增或更新 `## JD Analysis: [Company] — [Role]`，并同步 `Interview Loops`。
 - `prep`：更新 `Interview Loops` 的轮次、format、fit verdict、concerns、prepared questions、next round。
@@ -53,6 +53,7 @@
 - 用户报告真实面试结果。
 - 用户提供招聘方反馈。
 - 用户纠正教练判断。
+- 用户明确说某类内容“不重要”“面试不会问”“不要重点练”“不要写成主线”“暂时不考虑”时，写入或更新 `## Candidate Constraints`。
 - 用户透露会影响辅导方式的偏好、焦虑、时间安排或沟通习惯。
 - 每次 meta-check 的反馈和调整。
 

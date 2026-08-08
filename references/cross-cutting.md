@@ -2,6 +2,32 @@
 
 本文件定义所有命令共享的通用模块。模块名保留英文；说明和话术使用中文。
 
+## State Context Gate
+
+执行任何会生成建议、简历内容、练习题、模拟题或追问的命令前，先读取 `coaching_state.md`。读取后按以下顺序判断：
+
+1. `## Candidate Constraints`
+2. `## Profile`
+3. `## JD Analysis` / `## Interview Loops (active)`
+4. `## Resume Analysis` / `## Resume Optimization`
+5. `## Storybank` / `## Project Bank`
+6. `## Score History` / `## Coaching Notes`
+
+`## Candidate Constraints` 的优先级高于简历中显眼但已被候选人降权的内容。除非 JD、面试通知或候选人新回答明确推翻旧约束，不要把被排除/降权的信息作为默认重点。
+
+典型写法：
+
+| ID | Constraint | Applies To | Priority | Source | Last Confirmed | Handling Rule |
+|----|------------|------------|----------|--------|----------------|---------------|
+| C001 | 论文经历不作为发电集团岗位面试主线 | resume, mock, practice | high | candidate correction | 2026-08-08 | 简历中可保留为教育/科研背景，但模拟面试不要作为开场或核心追问；仅当 JD 明确要求科研能力时再轻量提及。 |
+
+如果候选人纠正教练判断，例如“这个方向不会问论文”，必须：
+
+1. 承认并更新判断。
+2. 写入 `## Candidate Constraints`。
+3. 调整当前输出，不要继续沿用被纠正的方向。
+4. 后续命令生成问题前先检查该约束。
+
 ## Differentiation Module
 
 Differentiation 是通用五维评分之一，不是附加项。

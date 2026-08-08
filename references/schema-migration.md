@@ -21,6 +21,7 @@
 至少应存在：
 
 - `## Profile`
+- `## Candidate Constraints`
 - `## Resume Analysis`
 - `## Project Bank`
 - `## Storybank`

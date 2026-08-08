@@ -6,6 +6,8 @@
 
 先读取 `coaching_state.md`。如果存在目标岗位、JD、故事库、项目库或弱项记录，练习题必须贴合当前状态。
 
+出题前必须检查 `## Candidate Constraints`。被候选人明确排除或降权的内容，不得作为随机练习、开场练习或默认追问主题。例如候选人说“发电集团面试基本不会问论文”，则 `practice` 不要默认练论文介绍；应优先练目标岗位更可能考察的专业基础、岗位动机、项目/实习、行业理解或行为题。只有用户明确说“这轮就练论文”或 JD 明确要求科研经历时，才可以进入该主题。
+
 如果用户只说“练一下”，先问一个问题：
 
 “你想练哪一类：自我介绍、项目/经历、行为题、专业题、压力追问，还是按目标岗位随机来一题？”
@@ -111,6 +113,7 @@ Update:
 - Score History:
 - Drill Progression:
 - Weak Topics, if applicable:
+- Candidate Constraints, if candidate corrected relevance:
 - Coaching Notes, if applicable:
 - Session Log:
 
@@ -124,4 +127,5 @@ Update:
 - 反馈要具体到句子、证据和结构，不要只说“表达不够好”。
 - 候选人卡壳时给提示，不要马上替他完成整段。
 - Directness Level 5 可以更直接，但仍然给可执行修改。
+- 候选人纠正题目方向后，先调整本轮问题，再把约束写入 `## Candidate Constraints`，后续不要重复踩同一个方向。
 - 面向用户的练习反馈字段用中文标签；状态写入仍保持英文协议字段。

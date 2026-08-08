@@ -23,6 +23,11 @@ Last updated: [date]
 - Career transition: none / function change / domain shift / IC↔management / industry pivot / career restart
 - Transition narrative status: not started / in progress / solid
 
+## Candidate Constraints
+| ID | Constraint | Applies To | Priority | Source | Last Confirmed | Handling Rule |
+|----|------------|------------|----------|--------|----------------|---------------|
+| C001 | 待填写，例如：某段经历不作为目标岗位面试主线 | resume, practice, mock | medium/high | candidate correction | 待填写 | 待填写 |
+
 ## Resume Analysis
 - Positioning strengths: 待填写
 - Likely interviewer concerns: 待填写

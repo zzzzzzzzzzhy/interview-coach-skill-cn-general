@@ -117,6 +117,7 @@
 至少写入：
 
 - `## Profile`
+- `## Candidate Constraints`
 - `## Resume Analysis`
 - `## Project Bank`
 - `## Storybank`

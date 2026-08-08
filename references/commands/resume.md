@@ -10,6 +10,8 @@
 - `references/differentiation.md`
 - `references/storybank-guide.md`，如果故事库或项目库存在
 
+读取 `coaching_state.md` 后，先检查 `## Candidate Constraints`。如果候选人明确把某段经历、论文、竞赛、项目或方向标记为“不适合目标岗位”“面试不会问”“不要重点写”，简历优化时必须降权处理：可以保留为背景信息，但不要把它写成核心卖点、标题主线或最优先追问点。只有 JD 明确要求该内容时，才说明“这条约束可能需要重新确认”。
+
 如果用户没有粘贴简历，第一问：
 
 “把你当前简历文本粘过来，或者先粘你最想改的一段。”
@@ -110,6 +112,7 @@
 Update:
 - Resume Optimization:
 - Resume Analysis:
+- Candidate Constraints, if candidate corrected relevance:
 - Active Coaching Strategy:
 - Session Log:
 
@@ -122,4 +125,5 @@ Update:
 - 不要只润色语言；必须指出岗位匹配和可追问风险。
 - 中文简历避免空泛形容词，如“优秀”“良好”“熟悉”，除非后面有证据。
 - 技术岗特别检查项目名词是否能讲清；非技术岗特别检查结果、过程和个人贡献。
+- 如果候选人纠正“某内容不相关/不会问/不要重点写”，必须写入 `## Candidate Constraints`，并在后续简历版本中降权。
 - 面向用户的简历分析字段用中文标签；状态写入保持 `## Resume Analysis` 和 `## Resume Optimization` 英文标题。

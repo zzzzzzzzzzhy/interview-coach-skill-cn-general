@@ -25,6 +25,10 @@ Last updated: [date]
 - Career transition: [none / function change / domain shift / IC↔management / industry pivot / career restart]
 - Transition narrative status: [not started / in progress / solid]
 
+## Candidate Constraints
+| ID | Constraint | Applies To | Priority | Source | Last Confirmed | Handling Rule |
+|----|------------|------------|----------|--------|----------------|---------------|
+
 ## Resume Analysis
 - Positioning strengths:
 - Likely interviewer concerns:
@@ -276,3 +280,4 @@ Last updated: [date]
 - 不要翻译标题，如不要把 `## Profile` 改成 `## 候选人画像`。
 - 中文内容可以直接填在字段后。
 - 对不适用的模块可留空，不要删除。
+- `## Candidate Constraints` 用于保存候选人明确排除、降权或纠正过的信息。例如“发电集团面试不重点问论文”，应写成一条约束，后续简历优化和模拟面试默认避开论文主线。
