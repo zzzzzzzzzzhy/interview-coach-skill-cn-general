@@ -6,9 +6,14 @@ coaching_state.md
 
 # Personal interview materials (resume, transcripts, company folders)
 materials/
+*.docx
 
 # Generated local test/scratch artifacts
 tmp/
+scripts/
+
+# Local assistant/tooling metadata
+.claude/
 
 # Active skill file (created by copying SKILL.md during setup)
 CLAUDE.md
