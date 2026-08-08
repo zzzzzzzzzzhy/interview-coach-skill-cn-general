@@ -1,0 +1,14 @@
+# OS
+.DS_Store
+
+# Personal coaching data — contains stories, scores, interview targets, and concerns
+coaching_state.md
+
+# Personal interview materials (resume, transcripts, company folders)
+materials/
+
+# Generated local test/scratch artifacts
+tmp/
+
+# Active skill file (created by copying SKILL.md during setup)
+CLAUDE.md
